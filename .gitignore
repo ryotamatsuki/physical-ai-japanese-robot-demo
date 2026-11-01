@@ -1,0 +1,24 @@
+# Credentials and keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*api_key*
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Simulation assets and screen recordings
+source/
+*.mp4
+*.mov
+*.zip
+*.log
+.idea/
+.vscode/
+.DS_Store
